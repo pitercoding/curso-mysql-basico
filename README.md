@@ -66,6 +66,32 @@ Neste curso, aprendi desde os **conceitos fundamentais de bancos de dados relaci
 | 15   | Chaves Estrangeiras e JOIN | 40:44 |
 | 16   | INNER JOIN com várias tabelas | 28:04 |
 
+## 📋 Tabela de Principais Comandos MySQL
+
+| Comando        | Tipo | Finalidade                                                                 |
+|----------------|------|-----------------------------------------------------------------------------|
+| `CREATE DATABASE` | DDL  | Cria um novo banco de dados.                                              |
+| `CREATE TABLE`    | DDL  | Cria uma nova tabela dentro de um banco de dados.                         |
+| `ALTER TABLE`     | DDL  | Modifica a estrutura de uma tabela existente (ex: adicionar/remover colunas). |
+| `DROP DATABASE`   | DDL  | Exclui um banco de dados e todas as suas tabelas.                         |
+| `DROP TABLE`      | DDL  | Remove uma tabela e todos os seus dados.                                 |
+| `TRUNCATE TABLE`  | DDL  | Remove todos os registros de uma tabela, mas mantém a estrutura.          |
+| `INSERT INTO`     | DML  | Insere novos registros (linhas) em uma tabela.                           |
+| `SELECT`          | DML  | Consulta dados de uma ou mais tabelas.                                   |
+| `UPDATE`          | DML  | Altera os valores de registros existentes.                               |
+| `DELETE`          | DML  | Remove registros específicos de uma tabela.                              |
+| `GRANT`           | DCL  | Concede permissões a usuários para executar ações no banco.              |
+| `REVOKE`          | DCL  | Remove permissões anteriormente concedidas a usuários.                   |
+| `COMMIT`          | TCL  | Confirma todas as alterações feitas na transação atual.                  |
+| `ROLLBACK`        | TCL  | Desfaz todas as alterações realizadas na transação atual.                |
+| `SAVEPOINT`       | TCL  | Define um ponto de salvamento para possíveis rollbacks parciais.         |
+
+> **Tipos de comandos:**
+> - **DDL (Data Definition Language)**: definição da estrutura dos dados (tabelas, colunas).
+> - **DML (Data Manipulation Language)**: manipulação dos dados (inserção, consulta, atualização, exclusão).
+> - **DCL (Data Control Language)**: controle de acesso e permissões.
+> - **TCL (Transaction Control Language)**: controle de transações no banco de dados.
+
 ## 💻 Tecnologias Utilizadas
 
 - MySQL
